@@ -44,7 +44,7 @@ yield = (pheno_train[,6])
 # Sans/without kinship
 yield_answer <- mixed.solve(yield, Z=geno_train, K=NULL)
 
-# Marker effects
+# Marker effects - probably want to iterate this a bunch 
 YLD = yield_answer$u
 e = as.matrix(YLD)
 
