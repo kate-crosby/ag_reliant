@@ -1,4 +1,4 @@
-# Repo for Agreliant genetics assignment
+# BLUPS
 
 ## Notes
 
